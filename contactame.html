@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/lux/bootstrap.min.css" integrity="sha512-+TCHrZDlJaieLxYGAxpR5QgMae/jFXNkrc6sxxYsIVuo/28nknKtf9Qv+J2PqqPXj0vtZo9AKW/SMWXe8i/o6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Praise&family=Schibsted+Grotesk:wght@400;800&family=Whisper&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleContact.css">
+</head>
+<body class=" container-fluid row">
+        <div class=" col-sm-6 col-md-5 col-lg-3 menuCol p-2 text-center">
+            <img class="text-center" src="assets/logo.png" width="250" height="250"><br>
+            <ul>
+                <li class="d-flex justify-content-start">
+                    <a href="index.html"><i class="fa-solid fa-house"></i><span class="aText">Home</span></a>
+                </li>
+                <hr>
+                <li class="d-flex justify-content-start">
+                    <a href="sobremi.html"><i class="fa-solid fa-user"></i><span class="aText">Sobre Mi</span></a>    
+                </li>
+                <hr>
+                <li class="d-flex justify-content-start">
+                    <a href="#"><i class="fa-solid fa-message"></i><span class="aText">Contacto</span></a>
+                </li>
+                <hr>
+                <li class="d-flex justify-content-start">
+                    <a href="#"><i class="fa-brands fa-github"></i><span class="aText">GitHub</span></a>
+                </li>
+                <hr>
+                <li class="d-flex justify-content-start socialMedias mt-14">
+                    <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class=" col-sm-6 col-md-7 col-lg-9 contact-me">
+            <h1 class="contact-me-title"><span class="title-content">CONTACTO</span></h1>       
+            <p class="line firstLine"/>
+            <p class="line secondLine"/>
+            <p class="contact-question"><span class="question-animated">¿Tiene alguna pregunta?</span></p>
+            <p class="contact-answer"><span class="answer"></span></p>
+            <div class="row contact-link">
+                <div class="col">
+                    <i class="fa-solid fa-phone-volume fa-shake fa-2xl contact-icon"></i>
+                    <p class="contact-answer">Llamame!</p>
+                    <p class="contact-answer information-contact">+11 5385 0472</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-envelope fa-beat fa-2xl contact-icon"></i>
+                    <p class="contact-answer">Correo Electronico</p>
+                    <p class="contact-answer information-contact">alanaruquipa242@gmail.com</p>
+                </div>
+            </div>
+            <p class="contact-question"><span>ENVIAME UN EMAIL ACA</span></p>
+            <p class="contact-answer">ESTOY ATENTO A LOS CORREOS</p>
+
+            <form class="contact-form">
+                <div class="input-group mb-3 d-flex justify-content-between">
+                    <input type="email" class="form-control contact-input-group input" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="text" class="form-control contact-input-group input" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+              <div class="form-group">
+                <input type="email" class="form-control contact-input input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control input" id="exampleTextarea contact-input" rows="3"></textarea>
+              </div>
+            </form>
+       </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="typed.js"></script>
+    <script>
+        // var title = new Typed(".title-content",{
+        //     strings:["CONTACTO"],
+        //     typeSpeed:120
+        // })
+        var answer = new Typed(".answer",{
+            strings:["ESTOY A SU SERVICIO"],
+            typeSpeed:120
+        })
+    </script>
+</body>
+</html>

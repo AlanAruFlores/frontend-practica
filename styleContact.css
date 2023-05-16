@@ -1,0 +1,86 @@
+.menuCol{
+    position: sticky;
+    top:0;
+}
+/*  */
+.contact-me-title{
+    color: #EDEDED;
+    margin: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;  
+    font-size: 2.4rem;
+}
+.line{
+    border-top: #ff764d 0.3rem solid;
+    margin-left: 2rem;
+}
+.firstLine{
+    width: 8ch;
+}
+.secondLine{
+    width: 4ch;
+}
+/*  */
+.contact-question{
+    color:#ff764d;
+    font-size: 2.4rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    margin-top: 4rem;
+    text-align: center;
+}
+.contact-answer{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #EDEDED;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 800;
+}
+/* CONTACT LINKS */
+.contact-link .col{
+    text-align: center;
+    padding:4rem;
+}
+
+.contact-icon{
+    font-size: 6rem;
+    color: #ff764d;
+}
+
+.information-contact{
+    font-weight: 400;
+}
+
+/* FORMULARIO CONTACT */
+.contact-form{
+    padding: 4rem;
+}
+.contact-form::content{
+    background-color:#0b1524 ;
+}
+.contact-input{
+    margin-bottom: 2rem;
+}
+.contact-input-group{
+    max-width: 44rem;
+}
+.input{
+    background-color: #0b1524;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    color:#ff764d;
+}
+.input:focus{
+    background-color: #0b1524;
+    color: #ff764d;
+}
+.input::placeholder{
+    color:#ff764d;
+}
+.input:active{
+    background-color: #0b1524;
+
+}

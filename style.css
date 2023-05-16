@@ -1,0 +1,103 @@
+body{
+    background-color: #0c131d;
+    color: #EDEDED;
+    font-size: 24px;
+}
+.menuCol{
+    background-color: #0b1524;
+    height: 100vh;
+    border-right: #EDEDED solid 1px;
+}
+.menuCol ul{
+    list-style: none;
+    margin-top: 8rem;
+    margin-left: 4.4rem;
+}
+.menuCol li{
+    margin-top: 5rem;
+}
+.menuCol a:hover{
+    transition: 1s;
+    color: #ff764d;
+}
+.menuCol a{
+    transition: 1s;
+    text-decoration: none;
+    color:#EDEDED;
+    font-weight: bolder;
+    margin-left:3rem;
+}
+.menuCol hr{
+    margin-left: 3rem;
+}
+.menuCol .aText{
+    margin-left: 1.4rem;
+}
+/* SOCIAL MEDIAS LINKS */
+.fa-facebook{
+    color: #4a80de;
+}
+.fa-whatsapp{
+    color:#28e25f;
+}
+.fa-instagram{
+    color:#e24b62;
+}
+.fa-brands{
+    transition: 1s;
+}
+.fa-brands:hover{
+    transition: 1s;
+    color: #EDEDED;
+}
+.menuCol hr{
+    width: 10rem;
+}
+
+/*Portfolio CSS*/
+.portfolio-font{
+    color: #ff764d;
+    font-size: 3rem;
+    font-family: 'Praise', cursive;
+}
+.title{
+    color: #EDEDED;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: bold;
+    margin-left: 2rem;
+    letter-spacing: 0.11rem;  
+    font-size: 1.7rem; 
+}
+.portfolio-title{
+    margin-top: 10rem;
+}
+.portfolio-subtitle{
+    margin-top: 2rem;
+}
+.portfolio-title-content{
+    border-right: #EDEDED solid 0.6rem;
+}
+/* PORTOFLIO DESCRIPTION */
+.description-section{
+    margin-top: 3.4rem;
+}
+.portfolio-description{
+    margin: 2rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.portfolio-description-button{
+    margin: 2rem;
+    background-color: #ff764d;
+    border-radius: 1.2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+.portfolio-profile{
+    text-align: center;
+}
+.portfolio-profile-description{
+    border-radius: 4rem;
+}
+
